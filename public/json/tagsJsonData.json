@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "name": "Cards",
+        "visibility": "true"
+    },
+    {
+        "id": "2",
+        "name": "Credits",
+        "visibility": "true"
+    },
+    {
+        "id": "3",
+        "name": "Deposit",
+        "visibility": "true"
+    },
+    {
+        "id": "4",
+        "name": "Ensurance",
+        "visibility": "true"
+    }
+]

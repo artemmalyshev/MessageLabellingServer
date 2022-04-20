@@ -1,0 +1,84 @@
+.horizontal-flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    padding: 10px;
+}
+
+div#allTagsContainer {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+    margin-right: 20px;
+    min-width: 20%;
+}
+
+div#selectedTagsContainer button {
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+div#selectedTagsContainer button:first-child {
+  margin-left: 0;
+}
+
+button {
+    display: block;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+div#messagesContainer {
+    border: 3px solid green;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+span {
+    display: block;
+    font-size: 18px;
+    color: green;
+}
+
+div#selectedTagsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 3px solid blue;
+    min-height: 20px;
+}
+
+div#upload i {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+div#upload button {
+    font-size: large;
+}
+
+div#upload {
+    display: flex;
+    justify-content: end;
+    font-size: 4px;
+    padding: 0;
+}
+
+div.message-area {
+    border: 3px solid orange;
+    min-width: 50%;
+}
+
+div.navigation {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+div.navigation button{
+    font-size: 2rem;
+}
